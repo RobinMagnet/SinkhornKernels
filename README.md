@@ -75,8 +75,6 @@ For exponentially-decaying kernels (Gaussian, exponential, GMM), prefer log-doma
 | [`examples/02_modalities_spectra.ipynb`](examples/02_modalities_spectra.ipynb) | Different shape representations |
 | [`examples/03_qdiffnet_layers.ipynb`](examples/03_qdiffnet_layers.ipynb) | Q-DiffNet  |
 
-The Stanford armadillo used by the notebooks ships in [`data/`](data/)
-(courtesy of the [Stanford 3D Scanning Repository](http://graphics.stanford.edu/data/3Dscanrep/)).
 
 ## Q-DiffNet
 
