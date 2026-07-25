@@ -9,7 +9,7 @@ by Nathan Kessler, Robin Magnet and Jean Feydy.
 Given any symmetric positive kernel $K$ and point masses $m$ (with $M = \mathrm{diag}(m)$),
 the symmetric Sinkhorn normalization computes the unique positive diagonal $\Lambda$ such that
 
-$$Q =\LambdaK M\Lambda$$
+$$Q =\Lambda K M\Lambda$$
 
 is a **diffusion operator**: $Q\mathbf{1} = \mathbf{1}$, self-adjoint for the mass-weighted
 inner product, with spectrum in $[0, 1]$. Each Sinkhorn iteration costs one kernel
