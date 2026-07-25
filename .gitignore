@@ -1,0 +1,22 @@
+# Original snippet directories, kept locally until the assembled package is verified
+code1/
+code2/
+code3/
+
+# Test suite is kept local, not shipped with the release
+tests/
+
+# OS / editor
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# keops compilation cache
+.keops/

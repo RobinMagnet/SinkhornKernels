@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sinkhornkernels"
+version = "0.1.0"
+description = "Official implementation of 'Sinkhorn Normalization of Diffusion Kernels' (ICML 2026)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Nathan Kessler" },
+    { name = "Robin Magnet" },
+    { name = "Jean Feydy" },
+]
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "scikit-learn"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Homepage = "https://github.com/RobinMagnet/SinkhornKernels"
+
+[project.optional-dependencies]
+torch = ["torch", "einops"]
+keops = ["torch", "einops", "pykeops"]
+examples = ["matplotlib", "pyvista", "tetgen", "jupyter", "pymeshfix"]
+
+[tool.setuptools.packages.find]
+include = ["sinkhornkernels*"]
