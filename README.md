@@ -6,7 +6,7 @@ Official implementation of the ICML 2026 paper
 **“Sinkhorn Normalization of Diffusion Kernels”**
 by Nathan Kessler, Robin Magnet and Jean Feydy.
 
-Given any symmetric positive kernel $K$ and point masses $m$ (with $M = \mathrm{diag}(m)$),
+Given any symmetric positive kernel $K$ and point masses $m$ (with $$M = \mathrm{diag}(m)$$),
 the symmetric Sinkhorn normalization computes the unique positive diagonal $\Lambda$ such that
 
 $$Q =\Lambda K M\Lambda$$
